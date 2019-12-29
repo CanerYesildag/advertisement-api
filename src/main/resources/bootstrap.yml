@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: advertisement-api
+cloud:
+  config:
+    uri: http://localhost:8888
+    failFast: true
+---
+spring:
+  profiles: local
